@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(../img/osmosis.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.video{
+    background-color: rgba(0, 0, 0, 0.559);
+    background-position: 100%;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 700px;
+    transition: 1s;
+    box-shadow: 20px 20px;
+    color: rgba(141, 141, 141, 0.363);
+    
+}
+
+.video:hover{
+    transform: scale(1.8);
+}
+
+
+.menuContainer{
+    background-color: transparent;
+    width: fit-content;
+    margin: auto;
+}
+.menuItem{
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px 5px 10px 0px;
+    align-items: center;
+}
+
+.menuLink{
+    position:relative;
+    bottom: -30px;
+    left: 30px;
+    background-color: #690004b1;
+    border-radius: 2em;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em 1em;
+    font-weight: bold;
+
+}
+
+.menuLink:hover{
+    background-color: transparent;
+    border: 3px dashed rgb(133, 0, 0);
+    color: rgb(0, 0, 0);
+    transform: scale(1.4);
+    cursor:pointer;
+    transition: 0.65s;
+    transition-delay: 1s;
+    position: 0 15;
+    -webkit-transition-delay: 11ms;
+    
+}
+
+.menuLink:active{
+    color: bisque;
+    font-family: monospace;
+        
+}
+
+.menuText{
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    bottom: 2em;
+    right:5em;
+    left: 5em;
+    background-color:#3c15165c;
+    border-radius:2em;
+    color:rgb(206, 199, 199);
+    padding:1em 1.5em;
+    font-weight: bold;
+    -webkit-transform-stye: calc(15);
+    
+}
+
+.menuText:hover{
+    background-color: transparent;
+    border: 3px dashed rgb(133, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    cursor:pointer;
+    transition: 0.6s;
+    -webkit-transition-dely: 11ms;
+    
+    
+}
+.menuText:active{
+    color: bisque;
+    font-family: monospace;
+    transition: 1s;
+}
